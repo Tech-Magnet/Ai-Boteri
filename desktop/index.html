@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ai Boteri</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="pic/favicon.webp">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+      window.location.href = "../mobile/index.html";
+    }
+  </script>
+  <script>
+    
+    function Wifi(mouseOver){
+      const thing = document.getElementById("Wifi-Info");
+      if(mouseOver == true){
+        thing.style.display = "block";
+      }else if (mouseOver == false){
+        thing.style.display = "none";
+      }
+    }
+    function Kid(mouseOver){
+      const thing = document.getElementById("Kid-Info");
+      if(mouseOver == true){
+        thing.style.display = "block";
+      }else if (mouseOver == false){
+        thing.style.display = "none";
+      }
+    }
+    function Pet(mouseOver){
+      const thing = document.getElementById("Pet-Info");
+      if(mouseOver == true){
+        thing.style.display = "block";
+      }else if (mouseOver == false){
+        thing.style.display = "none";
+      }
+    }
+    function Resturant(mouseOver){
+      const thing = document.getElementById("Res-Info");
+      if(mouseOver == true){
+        thing.style.display = "block";
+      }else if (mouseOver == false){
+        thing.style.display = "none";
+      }
+    }
+  </script>
+</head> 
+<body>
+<center>
+  <a href="index.html"><h1>Ai Boteri</h1></a>
+<h2 style="font-size:30px">What do we offer?</h2>
+<br>
+<div id="Wifi-Info" style="display: none;" class="Info-Card">
+  <h1>Wifi</h1>
+  <p style="font-size: 20px;">We offer all coustomers free wifi</p>
+</div>
+<div id="Kid-Info" style="display: none;" class="Info-Card">
+  <h1>Kid-Frindly</h1>
+  <p style="font-size: 20px;">Children free up to the age of 3</p>
+</div>
+<div id="Pet-Info" style="display: none;"  class="Info-Card">
+  <h1>Check-In Scedule</h1>
+  <p style="font-size: 20px;">Check-In: 14:00 <br>Check-Out: 10:00</p>
+</div>
+<div id="Res-Info" style="display: none" class="Info-Card">
+  <h1>Resturant</h1>
+  <p style="font-size: 20px;">Food is served in the resturant and for an extra fee you can also be served breakfast</p>
+</div>
+<div class="row">
+  <div class="column"></div>
+  <div  class="column">
+    <img style="height: 100px;" onmouseenter="Wifi(true);" onmouseleave="Wifi(false);" src="pic/wifi-solid.svg">
+    <p>Free Wifi</p>
+  </div>
+  <div  class="column">
+    <img style="height: 100px;" onmouseenter="Kid(true);" onmouseleave="Kid(false);" src="pic/child-solid.svg">
+    <p>Kid-Friendly</p>
+  </div>
+  <div  class="column">
+    <img style="height: 100px;" onmouseenter="Pet(true);" onmouseleave="Pet(false);" src="pic/ticket-solid.svg">
+    <p>Check-In Scedule</p>
+  </div>
+  <div  class="column">
+    <img style="height: 100px;" onmouseenter="Resturant(true);" onmouseleave="Resturant(false);" src="pic/utensils-solid.svg">
+    <p>Resturant
+    </p>
+  </div>
+  <div class="column"></div>
+</div>
+</center>
+<br>
+<h2 style="padding-left: 100px; padding-right: 100px;">A 2-minute walk from the Rialto Bridge on the Grand Canal, this relaxed hostel is 1 km both from the Piazza San Marco and from the Doge's Palace.
+
+Straightforward mixed-gender or female-only dorms offer free Wi-Fi and shared bathrooms. Private rooms, some with en suite facilities, are also available. Bed linen is provided.
+
+Amenities include a shared kitchen and a dining area, as well as a terrace with sitting areas. Breakfast is available.
+<br><br>
+Check-In Time: 14:00<br>
+Check-Out Time: 10:00
+</h2>
+<br>
+<div class="row">
+  <div class="column"></div>
+  <div class="column">
+    <img style="border-radius: 25px; width: 560px;" src="pic/ven.webp">
+    <p>This property is located in the most popular area of Venice and has an excellent location score of 8.6★</p>
+  </div>
+  <div class="column"></div>
+  <div class="column">
+    <img style="border-radius: 25px; width: 550px;" src="pic/outside.webp">
+    <p>We have a nice and bratheble outside space</p>
+  </div>
+</div>
+<div class="row">
+  <div class="column"></div>
+  <div class="column">
+    <img style="border-radius: 25px;" src="pic/room2.webp">
+    <p>Unwind in your bed and enjoy the city views. Room features modern amenities including Wi-Fi</p>
+  </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<center>
+  <a href="https://www.hostelsclub.com/en/hostel/ai-boteri?property_slug=ai-boteri&scroll=true&guests=2&room_type=0&view_mode=details&currency=EUR&order=price"><button style="width: 200px; height: 120px; font-size: 30px; background-color: orange; border-color: rgb(207, 135, 0);">Book Now</button></a>
+</center>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<center>
+<!--Footer-->
+<div class="footer">
+    <hr>
+    <br>
+    <h4><a style="color:#fff" href="https://goo.gl/maps/H6BfCzEAukp3hgna6">Calle dei Botteri, 1699, 30125 Venezia VE</a></h4>
+    <br>
+    <h3><a style="color:#fff" href="tel:+390410990759">Call Us on +390410990759</a></h3>
+    <h5>Copyright&copy 2022 Ai Boteri</h5>
+</center>
+</div>
+</body>
+</html>
